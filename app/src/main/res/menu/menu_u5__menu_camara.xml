@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".U5_MenuCamara">
+    <item
+        android:id="@+id/action_camara"
+        android:title="Camara"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_salir"
+        android:title="Salir"
+        android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
